@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div><br>
+            
+        <div>
+        <label for="Fname">Full Name</label>
+        <input type="you" id="fname" name="fname" style="margin-bottom: 10px;">
+        </div>
+
+        <div>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" style="margin-bottom: 10px;">
+        </div>
+
+        <div>
+            <label for="age">Age</label>
+            <input type="text" name="age" id="age" >
+        </div>
+
+        <p> Gender:</p><br>
+        
+        
+        <input type="checkbox" name="male" id="male">
+          <label for="male">Male</label>
+
+          <input type="checkbox" name="female" id="female">
+          <label for="female">Female</label>
+
+          <p>Documets Submitted:</p>
+
+          <input type="checkbox" name="admission letter" id="admission letter">
+          <label for="admission letter"> Admission Letter</label>
+
+          <input type="checkbox" name="payment receipt" id="payment receipt">
+          <label for="payment receipt"> Payment Receipt</label>
+
+          <label for="Faculty:"></label>
+          <style>
+  .row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  select {
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 14px;
+  }
+</style>
+
+<div class="row">
+  <label for="faculty">Faculty:</label>
+
+  <select id="faculty">
+    <option>Select</option>
+    <option>Science</option>
+    <option>Arts</option>
+    <option>Engineering</option>
+  </select>
+</div>
+
+<style>
+  .box {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px; /* 👈 space above */
+  }
+
+  textarea {
+    width: 300px;
+    height: 120px;
+    font-size: 14px;
+  }
+</style>
+
+<div class="box">
+  <label for="message">Additional Information:</label>
+  <textarea id="Additional Information"></textarea>
+</div>
+
+<input type="submit" style="margin-top: 20px;">
+<input type="reset">
+
+</form>  
+</body>
+</html>
